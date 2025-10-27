@@ -1,0 +1,12 @@
+# Left prompt: path + git branch
+PROMPT='%F{cyan}%~%f %F{yellow}$(git_prompt_info)%f
+%F{green}>%f '
+
+# Right prompt: time
+RPROMPT='%F{blue}%*%f'
+
+# Git prompt tweaks
+ZSH_THEME_GIT_PROMPT_PREFIX=" "
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
+ZSH_THEME_GIT_PROMPT_DIRTY="%F{red} ✘%f"
+ZSH_THEME_GIT_PROMPT_CLEAN="%F{green} ✔%f"
